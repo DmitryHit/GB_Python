@@ -4,4 +4,4 @@ h = (user_input//3600) % 24
 m = (user_input//60) % 60
 s = user_input % 60
 
-print('%d:%02d:%02d ' % (h, m, s))
+print('%02d:%02d:%02d ' % (h, m, s))
